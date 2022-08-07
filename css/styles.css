@@ -12,18 +12,6 @@ html {
     justify-content: center;
 }
 
-
-/* ul {
-    display: table;
-    margin: 0 auto;
-    list-style-type: none;
-    padding: 5px;
-    border: 0.5px solid rgba(0, 0, 0, 1);
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, .1);
-} */
-
-
 .ingredients {
     list-style-type: circle;
     border: 0.5px solid rgba(0, 0, 0, 1);
@@ -38,18 +26,17 @@ html {
 }
 
 #steps {
+    margin: auto;
+    width: 70%;
     border: 0.5px solid rgba(0, 0, 0, 1);
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(0, 0, 0, .2);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* #ing {
-    float: left;
+#intro {
+    margin: auto;
+    width: 50%;
 }
-
-#img {
-    float: left;
-} */
